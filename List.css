@@ -1,0 +1,99 @@
+body {
+  background: #ba57fc80;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+#pic {
+  width: 10%;
+}
+
+h2 {
+  margin-left: 10px;
+}
+
+.intro {
+  margin: 30px 0px;
+  font-weight: bold;
+}
+
+h1 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+p {
+  font-weight: 600;
+}
+
+#first {
+  margin-top: 10px;
+  color: black;
+}
+
+#second {
+  color: rgb(3, 158, 42);
+}
+#third {
+  color: #a70000;
+  margin-bottom: 30px;
+}
+
+#enter {
+  border: none;
+  padding: 5px 15px;
+  border-radius: 5px;
+  font-weight: normal;
+}
+
+#enter:hover {
+  opacity: 0.8;
+}
+
+ul {
+  text-align: left;
+  margin-top: 20px;
+}
+
+li {
+  list-style: none;
+  padding: 10px 20px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 600;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background: rgb(99, 99, 99);
+}
+
+li:hover {
+  background: rgb(0, 0, 0);
+}
+
+li > button {
+  font-weight: normal;
+  background: none;
+  border: none;
+  float: right;
+  color: #025f70;
+  font-weight: 800;
+}
+
+input {
+  border-radius: 5px;
+  min-width: 65%;
+  padding: 5px;
+  border: none;
+}
+
+.done {
+  background: rgb(3, 158, 42) !important;
+  color: #fff;
+}
+
+.delete {
+  display: none;
+}
